@@ -82,7 +82,7 @@ class Superman2 extends Homosapiens implements Flyer
     }
 }
 
-$singa = new Animal('Singa');
-$manusia = new Homosapiens('Andi');
-$airplane2 = new Airplane2(20000, 'Garuda Air');
+$puma = new Animal('Puma');
+$manusia = new Homosapiens('Bob');
+$airplane2 = new Airplane2(20000, 'Qatar Airways');
 $superman2 = new Superman2('Superman');
