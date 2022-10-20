@@ -96,6 +96,6 @@ class Helicopter extends Vehicle {
     }
 }
 
-$riverBarge2 = new RiverBarge2(30000, 'Atomic');
-$seaPlane = new SeaPlane(20000, 'Titanic');
-$helicopter = new Helicopter(10000, 'Brocklyn');
+$riverBarge2 = new RiverBarge2(30000, 'Apollo duck');
+$seaPlane = new SeaPlane(20000, 'Torpedo');
+$helicopter = new Helicopter(10000, 'Air wolf');
