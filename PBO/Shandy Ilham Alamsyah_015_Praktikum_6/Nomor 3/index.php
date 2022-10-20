@@ -19,7 +19,7 @@
             <div class="col-5 mx-auto border p-3 mt-2">
                 <h4 class="text-center"><strong>Soal No.3</strong></h4>
                 <br><br>
-                <?= $singa->eat(); ?> <br>
+                <?= $puma->eat(); ?> <br>
                 <?= $manusia->eat(); ?> <br>
                 <br>
 
