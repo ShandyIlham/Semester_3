@@ -42,5 +42,4 @@ bias2 = [2.5, 0.5, -4.5]
 output2 = np.dot(output, np.array(weights2).T) + bias2	
 
 # cetak output
-print(output)
 print(output2)
