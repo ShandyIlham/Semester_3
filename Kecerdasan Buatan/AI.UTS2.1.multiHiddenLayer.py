@@ -26,7 +26,7 @@ weights =  [[-3.3, 4.2, 1.8, 3.8, -4.3, -0.3, 0.9, 1.9, 2.1, 2.8],
 #inisialisasi bias hidden layer 1
 bias = [7, 3, 0.5, 1.5, 4.5]
 
-#output
+#output hidden layer 1
 output  = np.dot(inputs, np.array(weights).T) + bias
 
 # hidden layer 2
@@ -38,7 +38,7 @@ weights2 = [[-2.1, 2.6, 2.8, -1, 3.7],
 # inisialisasi bias hidden layer 2
 bias2 = [2.5, 0.5, -4.5]
 
-#output 2
+#output hidden layer 2
 output2 = np.dot(output, np.array(weights2).T) + bias2	
 
 # cetak output
